@@ -1,0 +1,20 @@
+@page { 
+    margin: 0; 
+}
+
+@media print {    
+    .form {
+        display: none;
+    }
+}
+
+.circle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 25mm;
+    height: 25mm;
+    margin: 5mm;
+}
